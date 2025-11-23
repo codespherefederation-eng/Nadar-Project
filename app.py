@@ -20,10 +20,10 @@ def load_lottieurl(url):
 # --- CHOOSE YOUR ANIMATION (Jo pasand ho wo use karo) ---
 
 # Option 1: Golden Diya (Candle Light) - BEST
-url = "https://lottie.host/97067c91-6963-4bb3-8b47-a0d9f7300b4f/wc8X7s8M7k.json"
+#url = "https://lottie.host/97067c91-6963-4bb3-8b47-a0d9f7300b4f/wc8X7s8M7k.json"
 
 # Option 2: Golden Sparkles (Divine Feel) - Agar Diya na chale
-# url = "https://lottie.host/537e0954-2532-4599-9063-32df832b0227/2F7Z1q9Z9r.json"
+ url = "https://lottie.host/537e0954-2532-4599-9063-32df832b0227/2F7Z1q9Z9r.json"
 
 # Option 3: Floating Lamp
 # url = "https://assets10.lottiefiles.com/packages/lf20_w51pcehl.json"
@@ -187,4 +187,5 @@ if st.button("🌹 REVEAL MY BLESSING 🌹", use_container_width=True):
                 st.download_button("📥 DOWNLOAD POSTER", data=buf.getvalue(), file_name=f"Nadar_{name_input}.jpg", mime="image/jpeg", use_container_width=True)
                 st.balloons()
     else:
+
         st.warning("Please enter your name first.")
